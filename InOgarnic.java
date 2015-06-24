@@ -13,7 +13,7 @@ import android.widget.ListView;
 import java.util.Locale;
 
 /**
- * Created by Nna-Did on 6/20/2015.
+ * Created by Felix on 6/20/2015.
  */
 public class InOgarnic extends ListActivity{
     TextToSpeech t1;

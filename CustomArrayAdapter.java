@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Created by Nna-Did on 6/19/2015.
+ * Created by Felix on 6/19/2015.
  */
 public class CustomArrayAdapter extends ArrayAdapter<String> {
     private final Activity context;

@@ -134,9 +134,11 @@ public class MainActivity extends ListActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.IO) {
+            finish();
             startActivity(new Intent(getApplicationContext(),InOgarnic.class));
         }else{
-            startActivity(new Intent(this,MainActivity.class));
+            finish();
+            startActivity(new Intent(getApplicationContext(),MainActivity.class));
 
         }
 
